@@ -10,7 +10,7 @@ import base64
 # --------------------------
 # 1. EPW 파일 불러오기
 # --------------------------
-epw_path = "data/KOR_KG_Seoul-Seongnam.AP.471110_TMYx.2004-2018.epw"
+epw_path = 'data/KOR_KG_Seoul-Seongnam.AP.471110_TMYx.2004-2018/KOR_KG_Seoul-Seongnam.AP.471110_TMYx.2004-2018.epw'
 df = pd.read_csv(epw_path, skiprows=8, header=None)
 
 # --------------------------
