@@ -3,3 +3,6 @@ plotly
 pandas
 gunicorn
 panel
+matplotlib
+numpy
+scipy
